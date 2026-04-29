@@ -1,53 +1,53 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00FFA3&center=true&vCenter=true&width=650&lines=Ola%2C+eu+sou+o+Danilo;Desenvolvedor+Backend+Junior;Apaixonado+por+Python+%7C+PostgreSQL+%7C+Docker;Construindo+projetos+reais+para+aprender+de+verdade" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00FFA3&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Danilo;Software+Engineer;Focused+on+AI%2C+Blockchain+%26+Distributed+Systems;Building+real-world+solutions+at+scale" alt="Typing SVG" />
 
 <br/>
 
-[![Visualizações](https://komarev.com/ghpvc/?username=whispering3&color=00ffa3&style=flat-square&label=VISITAS+AO+PERFIL)](https://github.com/whispering3)
+[![Profile Views](https://komarev.com/ghpvc/?username=whispering3&color=00ffa3&style=flat-square&label=PROFILE+VIEWS)](https://github.com/whispering3)
 &nbsp;
-![Status](https://img.shields.io/badge/STATUS-BUSCANDO_PRIMEIRA_OPORTUNIDADE-00ffa3?style=flat-square)
+![Focus](https://img.shields.io/badge/FOCUS-Backend_Architecture-blue?style=flat-square)
 &nbsp;
-![Foco](https://img.shields.io/badge/FOCO-Backend_Development-blue?style=flat-square)
+![Stack](https://img.shields.io/badge/MAIN_STACK-TypeScript_%7C_Node.js-3178C6?style=flat-square)
 
 </div>
 
 ---
 
-## Sobre mim
+## 👨‍💻 About Me
 
 ```typescript
-const dev = {
-  nome:     "Danilo Souza",
-  nivel:    "Júnior",
-  foco:     "Desenvolvimento Backend",
-  local:    "Brasil 🇧🇷",
+const engineer = {
+  name:     "Danilo Souza",
+  focus:    "Backend Architecture & Distributed Systems",
+  location: "Brazil 🇧🇷",
 
-  situacao: {
-    momento:   "Sem experiência formal ainda, mas construindo projetos reais",
-    buscando:  "Primeira oportunidade como desenvolvedor backend",
-    estudando: ["NestJS", "Docker", "Arquitetura de APIs REST", "PostgreSQL avançado"],
+  current_status: {
+    building: ["Decentralized AI Training Protocols", "Layer 1 Blockchains", "Autonomous AI Agents"],
+    core_stack: ["TypeScript", "Node.js", "Python", "Rust", "PostgreSQL"],
   },
 
-  o_que_me_move: [
-    "Entender como as coisas funcionam por baixo dos panos",
-    "Construir projetos que resolvam problemas reais",
-    "Escrever código limpo e que faça sentido",
-    "Aprender com cada erro de compilação 😅",
+  engineering_philosophy: [
+    "Understand systems from the ground up, not just the abstractions.",
+    "Prioritize performance, scalability, and security from day one.",
+    "Write pragmatic, maintainable code that solves real problems.",
+    "Constant learning through building complex architectures."
   ],
 } as const;
 ```
 
 ---
 
-## 🛠️ Tecnologias que estou aprendendo e usando
+## 🛠️ Technology Stack
 
 <div align="center">
 
-### Linguagens
+### Languages
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 ### Backend & Frameworks
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -55,108 +55,102 @@ const dev = {
 ![Express](https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### Banco de Dados
+### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### ORMs & Query Builders
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=typeorm&logoColor=white)
-
-### Infraestrutura
+### Infrastructure & Tools
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### Ferramentas
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Insomnia](https://img.shields.io/badge/Insomnia-5849BE?style=for-the-badge&logo=insomnia&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Meus Projetos de Estudo
+## 🚀 Featured Projects
 
-> Sem experiência formal ainda — mas esses projetos são onde boto a mão na massa de verdade.
-
----
-
-### 📦 PG-Queue — Fila de Jobs com PostgreSQL Puro
-
-> **O que aprendi:** Que não precisa de Redis pra ter uma fila robusta. PostgreSQL resolve.
-
-**O problema que quis resolver:**
-Entender como sistemas de filas funcionam por dentro, sem depender de ferramentas prontas como BullMQ ou RabbitMQ.
-
-**O que implementei:**
-- Fila transacional usando `FOR UPDATE SKIP LOCKED` no PostgreSQL
-- Workers concorrentes sem race condition
-- Retry automático com backoff em caso de falha
-- Painel simples para visualizar o status dos jobs
-
-**O que aprendi na prática:**
-- Como transações do banco garantem consistência em ambientes concorrentes
-- A diferença entre concorrência otimista e pessimista
-- Como o PostgreSQL se comporta sob carga com múltiplos workers
-
-**Stack:** `TypeScript` · `NestJS` · `PostgreSQL` · `Docker`
-
-[![Ver Projeto](https://img.shields.io/badge/Ver_no_GitHub-181717?style=for-the-badge&logo=github)](https://github.com/whispering3/worker-orchestrator)
+I believe in learning by building complex, real-world systems. Here are some of the major projects I'm working on:
 
 ---
 
-### ⛓️ Solana Volume Engine — Estudo de Transações On-Chain
+### 🧠 SwarmTrain — Decentralized Federated LLM Training
 
-> **O que aprendi:** Como blockchains públicas funcionam de verdade, além do tutorial básico.
+> **Focus:** Distributed Systems, AI Optimization, P2P Networks, Privacy.
 
-**O problema que quis resolver:**
-Entender como transações em blockchain são construídas, assinadas e executadas programaticamente — sem usar abstrações que escondem a complexidade.
+**The Vision:**
+Democratizing AI development by enabling ordinary users to collectively fine-tune large language models (LLMs) on consumer GPUs, bypassing the need for expensive centralized cloud infrastructure.
 
-**O que implementei:**
-- Integração com a RPC da Solana para envio de transações
-- Estudo de como MEV (Maximal Extractable Value) funciona
-- Orquestração de múltiplas carteiras de forma programática
-- Uso do Jupiter v6 para roteamento de swaps
+**Key Architecture:**
+- **SCAO Integration:** Powered by the **Sparse Curvature-Aware Adaptive Optimizer (SCAO)**, a 2nd-order optimizer I developed that drastically reduces network synchronization frequency by converging up to 2.4x faster.
+- **P2P Network:** Built a highly performant Rust daemon (libp2p) to handle decentralized peer discovery and GossipSub gradient propagation.
+- **Privacy & Security:** Implemented Rényi Differential Privacy (DP-SGD) and Krum aggregation to protect raw data and defend against Byzantine faults.
+- **UX:** Developed a Tauri v2 desktop application for seamless miner onboarding.
 
-**O que aprendi na prática:**
-- Como uma transação blockchain é estruturada em bytes
-- O que são Address Lookup Tables e por que existem
-- A diferença entre confirmação otimista e finalidade
+**Stack:** `Python` · `PyTorch` · `Rust (libp2p)` · `Tauri` · `TypeScript`
 
-**Stack:** `TypeScript` · `Solana Web3.js` · `Jupiter API` · `Node.js`
-
-[![Ver Projeto](https://img.shields.io/badge/Ver_no_GitHub-181717?style=for-the-badge&logo=github)](https://github.com/whispering3/solana-pumpfun-volume-bot)
+*(Private Repository)*
 
 ---
 
-### 🛡️ Marketplace com Foco em Privacidade — Estudo de Segurança
+### 🧮 SCAO — Sparse Curvature-Aware Adaptive Optimizer
 
-> **O que aprendi:** Segurança de verdade é muito mais do que colocar JWT no header.
+> **Focus:** Machine Learning Algorithms, CUDA Engineering, Performance Optimization.
 
-**O problema que quis resolver:**
-Estudar como sistemas que exigem privacidade real são arquitetados — autenticação, criptografia e pagamentos sem custódia.
+**The Vision:**
+Solving the memory bottlenecks of 2nd-order optimizers for LLM training on consumer hardware.
 
-**O que implementei:**
-- Autenticação via desafio PGP (sem senha tradicional)
-- Criptografia de ponta a ponta nas mensagens entre usuários
-- Integração com RPC do Monero para pagamentos sem rastreabilidade
-- Mecanismo de invalidação de sessão por PIN de emergência
+**Key Architecture:**
+- **Adaptive Rank Selection:** Compresses curvature matrices by retaining ≥95% spectral mass, reducing memory footprint by 16-32x compared to full-rank methods like Shampoo.
+- **Int8 EMA Quantization:** Developed a technique to store moving averages in int8, saving 4x memory without degrading perplexity.
+- **CUDA Kernels:** Wrote custom fused CUDA kernels to resolve complexity bottlenecks in projection implementations.
+- **Proven Results:** Successfully maintained 100% stability during a 3B parameter model fine-tuning on a single 16GB GPU, outperforming AdamW baselines.
 
-**O que aprendi na prática:**
-- Como criptografia assimétrica funciona na prática (não só na teoria)
-- Diferença entre autenticação e autorização em profundidade
-- O que é e como evitar ataques de replay
+**Stack:** `Python` · `PyTorch` · `CUDA`
 
-**Stack:** `NestJS` · `PostgreSQL` · `PGP` · `Monero RPC` · `TypeScript`
-
-> 🔒 Repositório privado.
+[![View Source](https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github)](https://github.com/whispering3/scao)
 
 ---
 
-## 📊 Minhas estatísticas no GitHub
+### ⛓️ Azuos Chain (AZU) — Sovereign Layer 1 Blockchain
+
+> **Focus:** Cryptography, Consensus Mechanisms, Distributed Ledgers.
+
+**The Vision:**
+Developing a fully sovereign Layer 1 blockchain built from the ground up, emphasizing decentralization and privacy.
+
+**Key Architecture:**
+- **Consensus:** Custom Proof-of-Work (SHA-256) implementation.
+- **Privacy:** Integrated Ring Signatures for transaction anonymity.
+- **Economics:** Engineered a strict 18 million supply limit and a 70/30 fee split model.
+- **Status:** Currently operating on Mainnet v7.5 (April 2026).
+
+**Stack:** `Go` · `Cryptography`
+
+*(Private Repository)*
+
+---
+
+### 🤖 Agentizze — AI Agents SaaS Platform
+
+> **Focus:** AI Orchestration, SaaS Architecture, Full-Stack Development.
+
+**The Vision:**
+Creating a platform for deploying and managing autonomous AI agents.
+
+**Key Architecture:**
+- **E-commerce Strategist:** Developed an automated agent utilizing Mistral Large 2411 to analyze the Etsy USA market, identifying high-demand, low-competition products.
+- **Platform Development:** Building the SaaS infrastructure to support scalable agent deployment and management.
+
+**Stack:** `TypeScript` · `Node.js` · `Mistral LLM`
+
+*(Private Repository)*
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -166,43 +160,16 @@ Estudar como sistemas que exigem privacidade real são arquitetados — autentic
 
 ---
 
-## 📚 O que estou estudando agora
+## 🤝 Let's Connect
 
-```
-✅ Concluído        🔄 Em andamento      🗓️ Na fila
-```
-
-| Tópico | Status | Onde estou estudando |
-|:---|:---:|:---|
-| APIs REST com NestJS | ✅ | Projetos próprios |
-| Docker & containerização | ✅ | Projetos próprios |
-| PostgreSQL avançado (índices, transações) | 🔄 | Projetos próprios + documentação oficial |
-| Arquitetura de microsserviços | 🔄 | Livro: Designing Data-Intensive Applications |
-| Testes automatizados (Jest) | 🔄 | Projetos próprios |
-| CI/CD com GitHub Actions | 🔄 | Projetos próprios |
-| Kubernetes (básico) | 🗓️ | — |
-| Redis avançado | 🗓️ | — |
-
----
-
-## 🤝 Vamos conversar?
+I'm always open to discussing complex engineering challenges, AI optimization, and distributed systems.
 
 <div align="center">
-
-Estou buscando minha **primeira oportunidade** como desenvolvedor backend.
-Se você tem um time que acredita em júniores com disposição para aprender, me chama! 👇
-
-<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/danilosoz)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:drsouza14@gmail.com)
 
 </div>
+```
 
----
-
-<div align="center">
-
-*"Todo sênior já foi júnior que não desistiu."*
-
-</div>
+How does this new structure feel? It's much more aligned with the impressive work you are actually doing!

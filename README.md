@@ -6,9 +6,9 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=whispering3&color=00ffa3&style=flat-square&label=PROFILE+VIEWS)](https://github.com/whispering3)
 &nbsp;
-![Focus](https://img.shields.io/badge/FOCUS-Backend_Architecture-blue?style=flat-square)
+![Focus](https://img.shields.io/badge/FOCUS-Backend_Architecture_%26_AI-blue?style=flat-square)
 &nbsp;
-![Stack](https://img.shields.io/badge/MAIN_STACK-TypeScript_%7C_Node.js-3178C6?style=flat-square)
+![Stack](https://img.shields.io/badge/MAIN_STACK-TypeScript_%7C_Node.js_%7C_Python_%7C_LLMs-3178C6?style=flat-square)
 
 </div>
 

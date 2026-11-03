@@ -1,228 +1,261 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00FFA3&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Danilo;Software+Engineer;Focused+on+AI%2C+Blockchain+%26+Distributed+Systems;Building+real-world+solutions+at+scale" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,60:0B3D2E,100:00FFA3&height=210&section=header&text=Danilo%20Souza&fontSize=50&fontColor=FFFFFF&fontAlignY=36&desc=AI%20Infrastructure%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Backend%20Architecture&descSize=16&descAlignY=58&descColor=C9D1D9" alt="Danilo Souza" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=00FFA3&center=true&vCenter=true&width=720&lines=Creator+of+SCAO+%E2%80%94+a+2nd-order+optimizer+on+PyPI;Building+decentralized+LLM+training+on+consumer+GPUs;Postgres-native+queues%2C+AI+orchestration%2C+observability;Performance%2C+reliability+and+security+from+day+one" alt="Typing SVG" />
+
+<br/><br/>
+
+[**About**](#about) &nbsp;·&nbsp; [**Featured Work**](#featured-work) &nbsp;·&nbsp; [**Ecosystem**](#ecosystem) &nbsp;·&nbsp; [**Tech Stack**](#tech-stack) &nbsp;·&nbsp; [**Contact**](#contact)
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=whispering3&color=00ffa3&style=flat-square&label=PROFILE+VIEWS)](https://github.com/whispering3)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/danilosoz)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-Hire%20Me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:drsouza14@gmail.com)
-
-![Focus](https://img.shields.io/badge/FOCUS-Backend_Architecture_%26_AI-blue?style=flat-square)
-&nbsp;
-![Stack](https://img.shields.io/badge/MAIN_STACK-TypeScript_%7C_Node.js_%7C_Python_%7C_Rust-3178C6?style=flat-square)
-&nbsp;
-![Open To](https://img.shields.io/badge/OPEN_TO-Full--time_%7C_Contract_%7C_Remote-00ffa3?style=flat-square)
+![Location](https://img.shields.io/badge/Brazil-Remote--first-0D1117?style=flat-square&labelColor=0D1117&color=00FFA3)
+![Open to](https://img.shields.io/badge/Open_to-Full--time_·_Contract-0D1117?style=flat-square&labelColor=0D1117&color=00FFA3)
+![PyPI](https://img.shields.io/pypi/v/scao?style=flat-square&label=scao%20on%20PyPI&labelColor=0D1117&color=00FFA3)
+![Views](https://komarev.com/ghpvc/?username=whispering3&style=flat-square&label=PROFILE+VIEWS&labelColor=0D1117&color=00FFA3)
 
 </div>
 
----
+<br/>
 
-## 👨‍💻 About Me
+## About
 
-```typescript
-const engineer = {
-  name:     "Danilo Souza",
-  role:     "Senior Software Engineer",
-  focus:    "Backend Architecture, AI Systems & Distributed Computing",
-  location: "Brazil 🇧🇷 · Remote-first",
+I'm a software engineer who works where **machine learning meets systems engineering**. I like problems where the abstraction leaks: a 2nd-order optimizer that doesn't fit in VRAM, a job queue that has to survive a worker crash mid-flight, an agent pipeline that must be observable and deterministic in production.
 
-  what_i_build: [
-    "Decentralized AI Training Protocols",
-    "High-Throughput AI Orchestration Platforms",
-    "High-Performance Job Queue Systems",
-    "Autonomous AI Agents & SaaS Infrastructure",
-  ],
+My approach is simple: understand the system from the ground up, measure everything, and ship code that other people can maintain.
 
-  core_stack: {
-    languages:    ["TypeScript", "Python", "Rust", "Go"],
-    backend:      ["Node.js", "Fastify", "NestJS", "FastAPI"],
-    ai_ml:        ["PyTorch", "LLMs", "XState", "BullMQ"],
-    databases:    ["PostgreSQL", "Redis", "MongoDB"],
-    infra:        ["Docker", "Prometheus", "Grafana", "GitHub Actions"],
-  },
+<table>
+<tr>
+<td width="50%" valign="top">
 
-  engineering_philosophy: [
-    "Understand systems from the ground up, not just the abstractions.",
-    "Prioritize performance, scalability, and security from day one.",
-    "Write pragmatic, maintainable code that solves real problems.",
-    "Constant learning through building complex architectures.",
-  ],
-} as const;
+**What I build**
+- Optimization & training infrastructure for LLMs
+- Decentralized / federated AI training protocols
+- Fault-tolerant job queues and RAG pipelines
+- Multi-agent orchestration platforms
+- Observable, production-grade backends
+
+</td>
+<td width="50%" valign="top">
+
+**How I work**
+- Benchmarks and ablations before claims
+- Explicit failure modes: retries, leases, DLQs
+- Fewer moving parts (Postgres before a new broker)
+- ADRs for every non-obvious trade-off
+- Security and observability as defaults
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## Featured Work
+
+### SCAO — Sparse Curvature-Aware Adaptive Optimizer
+
+> **A second-order PyTorch optimizer with near-AdamW memory and throughput cost.** Drop-in replacement for `AdamW`, published on PyPI and archived on Zenodo.
+
+[![PyPI](https://img.shields.io/pypi/v/scao?style=flat-square&labelColor=0D1117&color=00FFA3)](https://pypi.org/project/scao/)
+[![License](https://img.shields.io/badge/license-Apache_2.0-0D1117?style=flat-square&labelColor=0D1117&color=3178C6)](https://github.com/whispering3/scao/blob/main/LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19870556-0D1117?style=flat-square&labelColor=0D1117&color=3178C6)](https://doi.org/10.5281/zenodo.19870556)
+[![Python](https://img.shields.io/badge/Python-3.10+-0D1117?style=flat-square&logo=python&logoColor=white&labelColor=0D1117&color=3776AB)](https://pypi.org/project/scao/)
+[![Repo](https://img.shields.io/badge/View_Source-0D1117?style=flat-square&logo=github&labelColor=0D1117&color=181717)](https://github.com/whispering3/scao)
+
+Full Shampoo-style preconditioning is out of reach on consumer hardware: at transformer widths around 4096, its curvature matrices exceed 128 GB per model copy. SCAO keeps the useful part of the curvature and drops the rest.
+
+| Innovation | What it does |
+|---|---|
+| **Adaptive rank selection** | Keeps only the top-*k* eigenvectors holding ≥ 95% of spectral mass, cutting memory from `O(m²+n²)` to `O((m+n)·k)` |
+| **Sparse block-diagonal FIM** | Bounds eigendecomposition cost on very wide layers without discarding inter-parameter correlation |
+| **Phase-transition stability** | EMA bias correction, 50-step blend ramp and adaptive Tikhonov regularization for the Adam → SCAO handoff |
+| **Int8 EMA quantization** | Curvature accumulators stored in int8 for a 4× memory saving, with eigendecomposition still in float32 |
+| **Fused CUDA / Triton kernels** | Tiled GEMM and fused Kronecker preconditioner with automatic pure-PyTorch fallback |
+
+**Results**
+
+| Benchmark | Outcome |
+|---|---|
+| Qwen2.5-3B QLoRA on a single 16 GB T4 | **7.14 GB VRAM, stable run**, while full Shampoo failed at step 1 |
+| WikiText-2 (500 steps) | **+54% throughput**, validation PPL within 1.5% of AdamW |
+| Time-to-quality (PPL ≤ 14.10) | **1.82× faster** wall-clock than AdamW |
+| Scaling trend (5M / 10M params) | **−9.6% / −4.8% PPL** vs AdamW |
+
+**Ecosystem:** HuggingFace `Trainer` integration · Axolotl integration ([PR #3624](https://github.com/axolotl-ai-cloud/axolotl/pull/3624)) · scale presets from `scao_sub1b()` to `scao_125b()` · 66 automated tests · full ablation study.
+
+```python
+from scao import scao_3b
+
+optimizer = scao_3b(model, lr=2e-4)   # one-line swap for AdamW
 ```
 
----
+<br/>
 
-## 🚀 Featured Projects
+### AZUOS — Decentralized Federated LLM Training
 
----
+> **Fine-tune large language models collectively, on consumer GPUs, without a centralized cloud.**
 
-### 🎭 ORQUESTRA PRO — Institutional AI Orchestration Platform
+Peers join a P2P network and contribute gradients. SCAO is the optimization core, which reduces how often nodes need to synchronize.
 
-> **Focus:** AI Orchestration · Distributed Systems · Real-Time Streaming · Production Observability
+- **P2P layer:** Rust daemon on `libp2p` for peer discovery and GossipSub gradient propagation
+- **Privacy & robustness:** Rényi differential privacy (DP-SGD) and Krum aggregation against Byzantine peers
+- **Onboarding:** Tauri v2 desktop app for miners
 
-**The Vision:**
-A high-performance AI orchestration platform designed to manage complex multi-agent pipelines with full observability, real-time streaming, and fault recovery — built for production environments.
+`Python` · `PyTorch` · `Rust (libp2p)` · `Tauri` · `TypeScript` &nbsp;|&nbsp; *Private repository, available for review on request*
 
-**Key Architecture:**
-- **State Machine Orchestration (XState):** Deterministic execution flows with explicit state transitions and advanced error handling, eliminating unpredictable agent behavior.
-- **Decoupled Architecture:** API layer fully separated from execution workers, ensuring system stability under heavy load.
-- **Real-Time Mission Streaming:** Live mission tracking via Server-Sent Events (SSE), delivering immediate `task.*` and `step.*` event feedback to the UI.
-- **Industrial Observability:** End-to-end telemetry pipeline with Prometheus and Grafana — monitoring worker health, queue status, and cost/latency metrics.
-- **High-Concurrency Processing:** Distributed execution powered by BullMQ + Redis for massive scalability, with full state persistence via Prisma + PostgreSQL.
-- **Smart Context Injection:** Automatic skill discovery and context enrichment injected directly into agent prompts.
+<br/>
 
-**Stack:** `TypeScript` · `Fastify` · `Node.js` · `BullMQ` · `Redis` · `PostgreSQL` · `XState` · `Prometheus` · `Grafana` · `React`
+### Worker Orchestrator — PostgreSQL as the Only Broker
 
-[![View Source](https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github)](https://github.com/whispering3/Orquestrador-AI)
+> **A low-latency job queue that needs nothing but PostgreSQL 16.** No Redis, no RabbitMQ, no extra failure domain.
 
----
+[![Repo](https://img.shields.io/badge/View_Source-0D1117?style=flat-square&logo=github&labelColor=0D1117&color=181717)](https://github.com/whispering3/worker-orchestrator)
 
-### 🧠 AZUOS — Decentralized Federated LLM Training
+<table>
+<tr>
+<td width="55%" valign="top">
 
-> **Focus:** Distributed Systems · AI Optimization · P2P Networks · Privacy Engineering
+- **Transactional enqueue:** a job exists only if the business data was committed
+- **Zero-collision concurrency** with `FOR UPDATE SKIP LOCKED`
+- **Sub-millisecond reactivity** through `LISTEN/NOTIFY`
+- **Lease expiry:** a crashed worker's job is reclaimed automatically
+- **Exponential backoff with ±20% jitter** to prevent retry storms
+- **Dead letter queue** preserving `payload` and `last_error`
+- React dashboard and ADRs documenting each trade-off
 
-**The Vision:**
-Democratizing AI development by enabling ordinary users to collectively fine-tune large language models on consumer GPUs — no expensive centralized cloud required.
+</td>
+<td width="45%" valign="top">
 
-**Key Architecture:**
-- **SCAO Integration:** Powered by a custom 2nd-order optimizer (SCAO) that reduces network synchronization frequency by converging up to **2.4x faster** than standard methods.
-- **P2P Network:** High-performance Rust daemon (libp2p) for decentralized peer discovery and GossipSub gradient propagation.
-- **Privacy & Security:** Rényi Differential Privacy (DP-SGD) + Krum aggregation to protect raw data and defend against Byzantine faults.
-- **Desktop UX:** Tauri v2 application for seamless miner onboarding.
-
-**Stack:** `Python` · `PyTorch` · `Rust (libp2p)` · `Tauri` · `TypeScript`
-
-*(Private Repository — available for review upon request)*
-
----
-
-### 🧮 SCAO — Sparse Curvature-Aware Adaptive Optimizer
-
-> **Focus:** ML Algorithms · CUDA Engineering · Performance Optimization
-
-**The Vision:**
-Solving the memory bottlenecks of 2nd-order optimizers for LLM training on consumer hardware — making advanced optimization accessible without requiring A100-class GPUs.
-
-**Key Architecture:**
-- **Adaptive Rank Selection:** Compresses curvature matrices retaining ≥95% spectral mass — **16–32x memory reduction** vs. full-rank methods like Shampoo.
-- **Int8 EMA Quantization:** Custom technique storing moving averages in int8, saving 4x memory without perplexity degradation.
-- **Custom CUDA Kernels:** Fused CUDA kernels resolving complexity bottlenecks in projection implementations.
-- **Proven Results:** 100% stability on 3B parameter model fine-tuning on a single 16GB GPU, outperforming AdamW baselines.
-
-**Stack:** `Python` · `PyTorch` · `CUDA`
-
-[![View Source](https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github)](https://github.com/whispering3/scao)
-
----
-
-### 🕷️ Worker Orchestrator — High-Performance PostgreSQL Job Queue
-
-> **Focus:** Distributed Systems · Database Engineering · Fault Tolerance · Systems Design
-
-**The Vision:**
-A high-performance, low-latency job orchestration system using **PostgreSQL 16 as the sole broker** — eliminating the operational complexity of managing Redis or RabbitMQ as an extra dependency.
-
-**Why PostgreSQL?** In many production scenarios, introducing Redis just for queues creates an extra point of failure and backup complexity. This project demonstrates how to leverage powerful database primitives to achieve enterprise-grade queuing without the overhead:
-
-1. **Guaranteed Transactionality:** A job is only created if the business data is saved successfully — no dual-write inconsistencies.
-2. **Atomic Concurrency:** Multiple workers with zero collisions via `FOR UPDATE SKIP LOCKED`.
-3. **Near-Zero Latency:** Sub-millisecond reactivity via PostgreSQL `LISTEN/NOTIFY`.
-
-**Key Architecture:**
-- **Lease Expiry System:** If a worker crashes mid-processing, the `lease_expires_at` field expires automatically and another worker claims the job on the next fetch cycle — zero manual intervention.
-- **Exponential Backoff with Jitter (±20%):** Temporary failures (e.g., network timeouts) don't create retry storms. Randomized delay prevents thousands of failed jobs retrying simultaneously.
-- **Dead Letter Queue (DLQ):** Persistently failing jobs move to `dead` status, preserving the full `payload` and `last_error` for manual audit and reprocessing via the dashboard.
-- **React Dashboard:** Modern UI for monitoring queue health, worker status, and DLQ management.
-- **ADR Documentation:** Architectural Decision Records detailing every technical trade-off made during design.
-
-**Benchmarks:**
 | Metric | Result |
 |---|---|
-| Fetch Latency | < 3ms |
-| Throughput | > 1,200 jobs/sec (Single RDS instance) |
-| Concurrency | 50+ parallel workers — zero deadlocks |
+| Fetch latency | **< 3 ms** |
+| Throughput | **> 1,200 jobs/s** on a single RDS instance |
+| Concurrency | **50+ workers**, zero deadlocks |
 
-**Stack:** `Python` · `FastAPI` · `PostgreSQL 16` · `React` · `Docker`
+</td>
+</tr>
+</table>
 
-[![View Source](https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github)](https://github.com/whispering3/worker-orchestrator)
+`Python` · `FastAPI` · `PostgreSQL 16` · `React` · `Docker`
 
----
+<br/>
 
-### 🤖 Agentizze — AI Agents SaaS Platform
+### CARQ — Context-Aware RAG Processing Queue
 
-> **Focus:** AI Orchestration · SaaS Architecture · Full-Stack Development
+> **A resilient ingestion and semantic-search pipeline for RAG**, built around rate limits, partial failures and resource contention.
 
-**The Vision:**
-A platform for deploying and managing autonomous AI agents with real business impact — starting with an e-commerce market intelligence agent for the Etsy ecosystem.
+[![Repo](https://img.shields.io/badge/View_Source-0D1117?style=flat-square&logo=github&labelColor=0D1117&color=181717)](https://github.com/whispering3/CARQ)
 
-**Key Architecture:**
-- **Market Intelligence Agent:** Automated agent using Mistral Large 2411 to analyze the Etsy USA market, identifying high-demand, low-competition product opportunities.
-- **Platform Infrastructure:** Scalable SaaS architecture supporting multi-tenant agent deployment and lifecycle management.
+- **10,000+ chunks/min** with graceful degradation
+- **Surgical recovery:** only failed chunks are retried, never whole documents
+- **Adaptive rate limiting**, circuit breaker and dead letter queue for provider limits
+- **Idempotent ingestion** through content-hash deduplication
+- **ACID durability** on PostgreSQL + `pgvector`, with multi-instance worker coordination
+- **Observability:** structured JSON logs, Prometheus metrics, correlation IDs; Docker and Kubernetes manifests included
 
-**Stack:** `TypeScript` · `Node.js` · `Mistral LLM`
+`Python` · `FastAPI` · `asyncio` · `PostgreSQL + pgvector` · `SQLAlchemy 2.0` · `Docker` · `Kubernetes`
 
-[![Live Product](https://img.shields.io/badge/Live_Product-agentizze.com-00ffa3?style=for-the-badge&logo=rocket&logoColor=white)](https://agentizze.com)
+<br/>
 
----
+### ORQUESTRA PRO — AI Orchestration Platform
 
-## 🛠️ Technology Stack
+> **Multi-agent pipelines with deterministic execution, live streaming and production observability.**
+
+[![Repo](https://img.shields.io/badge/View_Source-0D1117?style=flat-square&logo=github&labelColor=0D1117&color=181717)](https://github.com/whispering3/Orquestrador-AI)
+
+- **XState state machines** for explicit transitions and controlled error handling instead of unpredictable agent loops
+- **API fully decoupled from workers**, so load on one never destabilizes the other
+- **Real-time mission streaming** over SSE (`task.*` and `step.*` events)
+- **Telemetry** with Prometheus and Grafana: worker health, queue depth, cost and latency
+- **BullMQ + Redis** for distributed execution, **Prisma + PostgreSQL** for state persistence
+
+`TypeScript` · `Fastify` · `BullMQ` · `Redis` · `PostgreSQL` · `XState` · `Prometheus` · `Grafana` · `React`
+
+<br/>
+
+## Ecosystem
+
+Two tracks that inform each other: **ML systems** (making advanced training practical on modest hardware) and **backend infrastructure** (making AI workloads reliable in production).
+
+```mermaid
+flowchart LR
+    subgraph ML["ML Systems"]
+        direction TB
+        SCAO["SCAO<br/>2nd-order optimizer"]
+        AZUOS["AZUOS<br/>federated LLM training"]
+        HF["HuggingFace Trainer"]
+        AX["Axolotl"]
+        SCAO --> AZUOS
+        SCAO --> HF
+        SCAO --> AX
+    end
+
+    subgraph BE["Backend Infrastructure"]
+        direction TB
+        WO["Worker Orchestrator<br/>Postgres job queue"]
+        CARQ["CARQ<br/>RAG ingestion pipeline"]
+        ORQ["ORQUESTRA PRO<br/>agent orchestration"]
+        WO -. "Postgres-as-broker pattern" .-> CARQ
+    end
+
+    ML ~~~ BE
+```
+
+<br/>
+
+## Tech Stack
 
 <div align="center">
 
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-### Backend & Frameworks
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### AI & ML
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![XState](https://img.shields.io/badge/XState-2C3E50?style=for-the-badge)
-![BullMQ](https://img.shields.io/badge/BullMQ-FF6A00?style=for-the-badge)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### Infrastructure & Observability
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<img src="https://skillicons.dev/icons?i=py,ts,rust,go,nodejs,fastapi,nestjs,fastify,pytorch,react&theme=dark&perline=10" alt="Languages and frameworks"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,prisma,docker,kubernetes,prometheus,grafana,githubactions,linux&theme=dark&perline=10" alt="Data and infrastructure"/>
 
 </div>
 
----
+| Area | Tools |
+|---|---|
+| **Languages** | Python · TypeScript · Rust · Go · CUDA / Triton |
+| **ML** | PyTorch · LLM fine-tuning (LoRA / QLoRA) · optimization · differential privacy |
+| **Backend** | FastAPI · Fastify · NestJS · Node.js · asyncio |
+| **Queues & orchestration** | PostgreSQL (`SKIP LOCKED`, `LISTEN/NOTIFY`) · BullMQ · XState |
+| **Data** | PostgreSQL · pgvector · Redis · MongoDB · Prisma · SQLAlchemy |
+| **Infra & observability** | Docker · Kubernetes · Prometheus · Grafana · GitHub Actions |
 
-## 📊 GitHub Stats
+<br/>
+
+## Open Source & Writing
+
+- **[`scao`](https://pypi.org/project/scao/)** — published on PyPI with a citable DOI and an integration PR open in [Axolotl](https://github.com/axolotl-ai-cloud/axolotl/pull/3624)
+- **[InstructLab proposal](https://github.com/instructlab/training/issues/703)** — adding SCAO as an optimizer option for constrained-hardware training
+- **[TabNews write-up](https://www.tabnews.com.br/danilosoz/como-ganhei-convergencia-de-2-ordem-de-graca-no-fine-tuning-de-llms-apresentando-o-scao)** — how SCAO gets second-order convergence "for free" during QLoRA fine-tuning (in Portuguese)
+
+<br/>
+
+## GitHub Activity
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=whispering3&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffa3&ring=00ffa3&fire=ff6b6b&currStreakLabel=00ffa3)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=whispering3&theme=tokyonight&hide_border=true&background=0D1117&stroke=00ffa3&ring=00ffa3&fire=00ffa3&currStreakLabel=00ffa3)](https://git.io/streak-stats)
 
 </div>
 
----
+<br/>
 
-## 🤝 Let's Connect
+## Contact
 
-I'm available for **full-time roles, contract work, and technical collaborations** — especially in AI infrastructure, distributed systems, and backend architecture.
+I'm open to **full-time roles, contract work and technical collaborations**, especially in AI infrastructure, distributed systems and backend architecture.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/danilosoz)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:drsouza14@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5&color=0D1117)](https://linkedin.com/in/danilosoz)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-Get_in_touch-0D1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836&color=0D1117)](mailto:drsouza14@gmail.com)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFA3,60:0B3D2E,100:0D1117&height=110&section=footer" alt="" width="100%"/>
 
 </div>
